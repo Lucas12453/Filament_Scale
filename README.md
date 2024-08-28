@@ -14,7 +14,7 @@ Created to easily determine the weight and length of 3D printing filament left o
 - 5x7cm Prototype board   
 - Soldering equipment   
 - Silicone (Smooth-On Mold Star 15 Slow Platinum Silicone Rubber was used here)
-- Mold release agent (Mann Release Technolgies; Ease Release 200 was used here)
+- Mold release agent (Mann Release Technologies; Ease Release 200 was used here)
 - Silicone mixing containers
 
 - 8 x M2.5 12mm screws  
