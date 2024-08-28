@@ -25,3 +25,22 @@ Created to easily determine the weight and length of 3D printing filament left o
 - 3D printer (a Prusa i3 MK3 printer was used here)
 
 ## Parts ##
+### Base ###    
+<img src="https://raw.githubusercontent.com/Lucas12453/filament_scale/main/Fil%20Scale%20Base.jpg" width="450">
+
+### Lid ###  
+<img src="https://github.com/Lucas12453/filament_scale/blob/main/Fil%20Scale%20Lid.jpg" width="450">
+
+### Display Covering ### 
+<img src="https://github.com/Lucas12453/filament_scale/blob/main/Fil%20Scale%20Display%20Covering.jpg" width="450">
+
+### Spacer ###  
+<img src="https://github.com/Lucas12453/filament_scale/blob/main/Fil%20Scale%20Spacer.jpg" width="450">
+
+### Plate ### 
+<img src="https://github.com/Lucas12453/filament_scale/blob/main/Fil%20Scale%20Plate.jpg" width="450">
+
+## Assembly ##
+
+1. Assemble the circuit:
+
