@@ -43,4 +43,43 @@ Created to easily determine the weight and length of 3D printing filament left o
 ## Assembly ##
 
 1. Assemble the circuit:
+   ![][image6]![][image7]![][image8]  
+- Attach the Screen to the Arduino Nano using wires roughly the length of 10cm.
 
+  The wires must connect the following:
+
+  VCC (Screen) \--- 5V(Arduino Nano)
+
+  GND (Screen) \--- GND (Arduino Nano)
+
+  SDA (Screen) \--- A4 (Arduino Nano)
+
+  SCL (Screen) \--- A5 (Arduino Nano)
+
+
+- Attach the HX711 to the Arduino Nano using wires of various lengths. 
+
+  The wires must connect the following:
+
+  VCC (HX711) \--- 5V (Arduino Nano)
+
+  SCK (HX711) \--- Digital 2 (Arduino Nano)  
+  DT (HX711) \--- Digital 3 (Arduino Nano)  
+  GND (HX711) \--- GND (Arduino Nano)
+
+- Take the 4 wires of the load cell and feed them through the leftmost hole within the opening of the trapezoid shape on the top of the lid. Feeding it through completely, the load cell can now comfortably sit within that same opening *(Be wary not to crush the wires under the load cell. If they are under or over the load cell, flip the load cell in a way so the wires have enough space.)* Line the holes of the load cell with the holes on the bottom of the lid. You can now use 2 M4 25mm screws to screw the load cell in place.
+
+   ![][image9]
+
+- Take those 4 wires coming out the other side, and insert them into the block terminal where there are 4 openings, one for each wire *(Double check that each opening is open completely before inserting the wire.)* Close those openings by screwing the small screws on the top of the block terminal.![][image10]   
+- Attach the corresponding pins to the HX711 using wires of various lengths.
+
+  The wires must connect the following: 
+
+  E+ \--- Red
+
+  E- \--- Black
+
+  A- \--- White
+
+  A+ \--- Green
