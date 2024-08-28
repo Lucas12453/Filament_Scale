@@ -98,9 +98,9 @@ Created to easily determine the weight and length of 3D printing filament left o
 4. Place the lid on top of the base, and use the 4 x M3 30mm screws to attach it to the base.  
 5. Insert the load cell into the spacer and line up the holes, then place the plate with the flat side facing up, flatly on top of the spacer, and line those holes as well. Use the 2 M4 35mm screws to attach all of them together.   
 6. Create silicone coverings:  
-- Mix a total of 250g of silicone in a 500g or larger container  
+- Mix a total of 250g of silicone in a 500mL or larger container  
 - Pour out 125g of Part A silicone into a container  
-- Pour out 125g of Part B silicone into the 500g or larger container  
+- Pour out 125g of Part B silicone into the 500mL or larger container  
 - Pour Part B into the same container as Part A and mix thoroughly. *(Be sure to scrape and incorporate excess silicone on the sides of the container.)* Pour that mixture back into the container that housed Part B and mix in there to include the silicone that was left behind. *(Be wary of the pot life written on the container of the silicone parts, which dictates how long the silicon remains malleable and workable.)*   
 - Spray the 2 molds with a light coating of mold release agent, so the removal of the silicone will be easier  
 - Take the container and place it inside a vacuum chamber, and turn it on to de-gas the silicone so there are no air bubbles when it cures. When the silicon stops bubbling, take it out of the chamber and pour it into the mold  
