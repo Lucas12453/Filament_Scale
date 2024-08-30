@@ -2,11 +2,9 @@
 
 HX711 scale;
 
-//uint8_t dataPin = 6;
-//uint8_t clockPin = 7;
-uint8_t dataPin  = 3;//for esp32
-uint8_t clockPin = 2;//for esp32
 
+uint8_t dataPin  = 3;
+uint8_t clockPin = 2;
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -29,7 +27,7 @@ int spltype = 1;
 int bState;
 
 void setup()
-{ //ikhiih
+{ 
   
  
   
@@ -43,13 +41,13 @@ void setup()
 
   if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
     Serial.println(F("SSD1306 allocation failed"));
-    for(;;); // Don't proceed, loop forever
+    for(;;); 
   }
 
  scale.set_offset(448496);
  scale.set_scale(-216.049407); 
  pinMode (btnPin, INPUT_PULLUP);
- // 465022-213.831405
+
 }
  
 
@@ -63,15 +61,14 @@ void loop () {
     
    display.clearDisplay();
 
-  display.setTextSize(2); // Draw 1-scale text
+  display.setTextSize(2); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(60, 20);
  display.print(spltype);
  display.display ();
 delay (1000);
 
-    if (spltype > 3) { // i have theory on why i had to put this as spltype > 1, its because if it printed 2, the value would be 0 and the nw for 2 was a else statement not an else if, it still worked.
-      //now, i might have to change it from else if 4 to just else.
+    if (spltype > 3) { 
       spltype = 0;
       }
     bState = digitalRead (btnPin);   
@@ -87,8 +84,7 @@ int nw;
 
 
 if (spltype == 1) {
-  nw = (gw);                                       // test if works
-}
+  nw = (gw);                                
 
 else if (spltype == 2) {
   nw = (gw - sw2);
@@ -96,7 +92,7 @@ else if (spltype == 2) {
 else if (spltype == 3) {
   nw = (gw - sw3);
 }
-else //if (spltype == 4) 
+else 
 {
   nw = (gw - sw4);
 }
@@ -105,14 +101,14 @@ if (nw == 0) {Serial.println (nw); }
 if(nw < 0) {
   display.clearDisplay();
 
-  display.setTextSize(2); // Draw 1-scale text
+  display.setTextSize(2); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
  display.print("0");
  display.println (" g");
 
 
-   display.setTextSize(2); // Draw 1-scale text
+   display.setTextSize(2); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 40);
  display.print("0");
@@ -125,14 +121,14 @@ else {
   int lengt = (nw/3);
   display.clearDisplay();
 
-  display.setTextSize(2); // Draw 1-scale text
+  display.setTextSize(2); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
  display.print(nw);
  display.println (" g");
 
 
-   display.setTextSize(2); // Draw 1-scale text
+   display.setTextSize(2); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 40);
  display.print(lengt);
@@ -141,14 +137,14 @@ display.display ();
 delay (100);
 }
 if (spltype == 0) {
-  display.setTextSize(2); // Draw 1-scale text
+  display.setTextSize(2); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(100, 0);
- display.print(4);   //changed to display.print (4)
+ display.print(4);  
  display.display ();
 }
 else {
-display.setTextSize(2); // Draw 1-scale text
+display.setTextSize(2); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(100, 0);
  display.print(spltype);
