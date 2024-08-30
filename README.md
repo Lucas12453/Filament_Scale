@@ -3,6 +3,8 @@
 ## Overview ##   
 Created to easily determine the weight and length of 3D printing filament left on a spool. It is made using 3D printed parts as well as various electronics, and is padded with silicone molds. There are 4 modes coded into the scale, 3 of which are for removing the weight of different spools, and 1 to be used as a normal scale.
 
+<img src="https://github.com/Lucas12453/Filament_Scale/blob/main/Images/scale_1.jpeg" width="450"> <img src="https://github.com/Lucas12453/Filament_Scale/blob/main/Images/scale_3.jpeg" width="450"> <img src="https://github.com/Lucas12453/Filament_Scale/blob/main/Images/scale_4.jpeg" width="450"> <img src="https://github.com/Lucas12453/Filament_Scale/blob/main/Images/scale_2.jpeg" width="450">
+
 ## Materials and Equipment ##
 - Arduino Nano  
 - I2C 128x64 OLED screen  
